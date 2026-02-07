@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainers | FitZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                <span>FITZONE</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-en="HOME" data-gr="ΑΡΧΙΚΗ">HOME</a></li>
+                <li><a href="classes.html" data-en="CLASSES" data-gr="ΠΡΟΓΡΑΜΜΑΤΑ">CLASSES</a></li>
+                <li><a href="trainers.html" class="active" data-en="TRAINERS" data-gr="ΠΡΟΠΟΝΗΤΕΣ">TRAINERS</a></li>
+                <li><a href="membership.html" data-en="MEMBERSHIP" data-gr="ΣΥΝΔΡΟΜΗ">MEMBERSHIP</a></li>
+            </ul>
+            <a href="membership.html" class="btn-join" data-en="JOIN NOW" data-gr="ΕΓΓΡΑΦΗ">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="MEET THE TEAM" data-gr="Η ΟΜΑΔΑ ΜΑΣ">MEET THE TEAM</h1>
+            <p data-en="Certified professionals dedicated to your transformation" data-gr="Πιστοποιημένοι επαγγελματίες αφοσιωμένοι στον μετασχηματισμό σου">Certified professionals dedicated to your transformation</p>
+        </div>
+    </section>
+
+    <section class="trainers-section">
+        <div class="container">
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=500" alt="Trainer">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>NIKOS ANTONOPOULOS</h3>
+                        <p class="trainer-role" data-en="Head Coach" data-gr="Κύριος Προπονητής">Head Coach</p>
+                        <p data-en="10+ years experience. NASM CPT, CrossFit L2. Specializes in strength & conditioning." data-gr="10+ χρόνια εμπειρίας. NASM CPT, CrossFit L2. Ειδικεύεται σε δύναμη & φυσική κατάσταση.">10+ years experience. NASM CPT, CrossFit L2. Specializes in strength & conditioning.</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=500" alt="Trainer">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>MARIA KOSTA</h3>
+                        <p class="trainer-role" data-en="HIIT Specialist" data-gr="Ειδικός HIIT">HIIT Specialist</p>
+                        <p data-en="Certified fitness instructor. Expert in high-intensity training and weight loss programs." data-gr="Πιστοποιημένη προπονήτρια. Ειδικός σε υψηλής έντασης προπόνηση και απώλεια βάρους.">Certified fitness instructor. Expert in high-intensity training and weight loss programs.</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500" alt="Trainer">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>ALEX DIMITRIOU</h3>
+                        <p class="trainer-role" data-en="Boxing Coach" data-gr="Προπονητής Πυγμαχίας">Boxing Coach</p>
+                        <p data-en="Former amateur boxer. 8 years coaching experience. Teaches technique and conditioning." data-gr="Πρώην ερασιτέχνης πυγμάχος. 8 χρόνια εμπειρία προπονητή. Διδάσκει τεχνική και φυσική κατάσταση.">Former amateur boxer. 8 years coaching experience. Teaches technique and conditioning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                        <span>FITZONE</span>
+                    </div>
+                    <p data-en="Transform your body, transform your life." data-gr="Μεταμόρφωσε το σώμα σου.">Transform your body, transform your life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="LINKS" data-gr="ΣΥΝΔΕΣΜΟΙ">LINKS</h3>
+                    <ul>
+                        <li><a href="classes.html" data-en="Classes" data-gr="Προγράμματα">Classes</a></li>
+                        <li><a href="membership.html" data-en="Membership" data-gr="Συνδρομή">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="CONTACT" data-gr="ΕΠΙΚΟΙΝΩΝΙΑ">CONTACT</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> <span>+30 210 555 1234</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@fitzone.gr</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitZone. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

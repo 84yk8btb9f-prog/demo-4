@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership | FitZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                <span>FITZONE</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-en="HOME" data-gr="ΑΡΧΙΚΗ">HOME</a></li>
+                <li><a href="classes.html" data-en="CLASSES" data-gr="ΠΡΟΓΡΑΜΜΑΤΑ">CLASSES</a></li>
+                <li><a href="trainers.html" data-en="TRAINERS" data-gr="ΠΡΟΠΟΝΗΤΕΣ">TRAINERS</a></li>
+                <li><a href="membership.html" class="active" data-en="MEMBERSHIP" data-gr="ΣΥΝΔΡΟΜΗ">MEMBERSHIP</a></li>
+            </ul>
+            <a href="membership.html" class="btn-join" data-en="JOIN NOW" data-gr="ΕΓΓΡΑΦΗ">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="MEMBERSHIP PLANS" data-gr="ΠΑΚΕΤΑ ΣΥΝΔΡΟΜΗΣ">MEMBERSHIP PLANS</h1>
+            <p data-en="Choose the plan that fits your lifestyle" data-gr="Διάλεξε το πακέτο που ταιριάζει στον τρόπο ζωής σου">Choose the plan that fits your lifestyle</p>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-en="BASIC" data-gr="ΒΑΣΙΚΟ">BASIC</h3>
+                    <div class="price">
+                        <span class="amount">€49</span>
+                        <span class="period" data-en="/month" data-gr="/μήνα">/month</span>
+                    </div>
+                    <ul>
+                        <li data-en="24/7 Gym Access" data-gr="Πρόσβαση 24/7">24/7 Gym Access</li>
+                        <li data-en="All Equipment" data-gr="Όλος ο Εξοπλισμός">All Equipment</li>
+                        <li data-en="Free WiFi" data-gr="Δωρεάν WiFi">Free WiFi</li>
+                        <li data-en="Locker Room" data-gr="Αποδυτήρια">Locker Room</li>
+                    </ul>
+                    <button class="btn btn-outline" data-en="GET STARTED" data-gr="ΞΕΚΙΝΑ">GET STARTED</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="popular-badge" data-en="MOST POPULAR" data-gr="ΔΗΜΟΦΙΛΕΣΤΕΡΟ">MOST POPULAR</div>
+                    <h3>PRO</h3>
+                    <div class="price">
+                        <span class="amount">€79</span>
+                        <span class="period" data-en="/month" data-gr="/μήνα">/month</span>
+                    </div>
+                    <ul>
+                        <li data-en="Everything in Basic" data-gr="Όλα από το Basic">Everything in Basic</li>
+                        <li data-en="All Classes Included" data-gr="Όλα τα Προγράμματα">All Classes Included</li>
+                        <li data-en="Personal Locker" data-gr="Προσωπικό Locker">Personal Locker</li>
+                        <li data-en="Nutrition Guidance" data-gr="Διατροφική Καθοδήγηση">Nutrition Guidance</li>
+                    </ul>
+                    <button class="btn btn-primary" data-en="GET STARTED" data-gr="ΞΕΚΙΝΑ">GET STARTED</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>ELITE</h3>
+                    <div class="price">
+                        <span class="amount">€129</span>
+                        <span class="period" data-en="/month" data-gr="/μήνα">/month</span>
+                    </div>
+                    <ul>
+                        <li data-en="Everything in Pro" data-gr="Όλα από το Pro">Everything in Pro</li>
+                        <li data-en="4 Personal Training Sessions" data-gr="4 Προσωπικά Μαθήματα">4 Personal Training Sessions</li>
+                        <li data-en="Custom Meal Plan" data-gr="Προσαρμοσμένο Πρόγραμμα Διατροφής">Custom Meal Plan</li>
+                        <li data-en="Priority Support" data-gr="Προτεραιότητα Υποστήριξης">Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline" data-en="GET STARTED" data-gr="ΞΕΚΙΝΑ">GET STARTED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title" data-en="START YOUR JOURNEY" data-gr="ΞΕΚΙΝΑ ΤΟ ΤΑΞΙΔΙ ΣΟΥ">START YOUR JOURNEY</h2>
+            <form id="membershipForm" class="membership-form">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Full Name" data-en="Full Name" data-gr="Ονοματεπώνυμο" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-row">
+                    <input type="tel" id="phone" placeholder="+30 210 123 4567" required>
+                    <select id="plan">
+                        <option data-en="Select Plan" data-gr="Επιλέξτε Πακέτο">Select Plan</option>
+                        <option value="basic" data-en="Basic - €49/month" data-gr="Βασικό - €49/μήνα">Basic - €49/month</option>
+                        <option value="pro" data-en="Pro - €79/month" data-gr="Pro - €79/μήνα">Pro - €79/month</option>
+                        <option value="elite" data-en="Elite - €129/month" data-gr="Elite - €129/μήνα">Elite - €129/month</option>
+                    </select>
+                </div>
+                <textarea id="message" rows="4" placeholder="Tell us about your fitness goals..." data-en="Tell us about your fitness goals..." data-gr="Πες μας για τους στόχους σου..."></textarea>
+                <button type="submit" class="btn btn-primary" data-en="CLAIM FREE WEEK" data-gr="ΔΙΕΚΔΙΚΗΣΕ ΔΩΡΕΑΝ ΕΒΔΟΜΑΔΑ">CLAIM FREE WEEK</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                        <span>FITZONE</span>
+                    </div>
+                    <p data-en="Transform your body, transform your life." data-gr="Μεταμόρφωσε το σώμα σου.">Transform your body, transform your life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="LINKS" data-gr="ΣΥΝΔΕΣΜΟΙ">LINKS</h3>
+                    <ul>
+                        <li><a href="classes.html" data-en="Classes" data-gr="Προγράμματα">Classes</a></li>
+                        <li><a href="trainers.html" data-en="Trainers" data-gr="Προπονητές">Trainers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="CONTACT" data-gr="ΕΠΙΚΟΙΝΩΝΙΑ">CONTACT</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> <span>+30 210 555 1234</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@fitzone.gr</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitZone. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

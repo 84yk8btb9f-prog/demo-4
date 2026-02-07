@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes | FitZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="gr">ΕΛ</button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                <span>FITZONE</span>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" data-en="HOME" data-gr="ΑΡΧΙΚΗ">HOME</a></li>
+                <li><a href="classes.html" class="active" data-en="CLASSES" data-gr="ΠΡΟΓΡΑΜΜΑΤΑ">CLASSES</a></li>
+                <li><a href="trainers.html" data-en="TRAINERS" data-gr="ΠΡΟΠΟΝΗΤΕΣ">TRAINERS</a></li>
+                <li><a href="membership.html" data-en="MEMBERSHIP" data-gr="ΣΥΝΔΡΟΜΗ">MEMBERSHIP</a></li>
+            </ul>
+            <a href="membership.html" class="btn-join" data-en="JOIN NOW" data-gr="ΕΓΓΡΑΦΗ">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-en="FITNESS CLASSES" data-gr="ΠΡΟΓΡΑΜΜΑΤΑ FITNESS">FITNESS CLASSES</h1>
+            <p data-en="Choose from our diverse range of high-energy classes" data-gr="Διάλεξε από την ποικιλία των υψηλής ενέργειας προγραμμάτων">Choose from our diverse range of high-energy classes</p>
+        </div>
+    </section>
+
+    <section class="schedule-section">
+        <div class="container">
+            <h2 class="section-title" data-en="WEEKLY SCHEDULE" data-gr="ΕΒΔΟΜΑΔΙΑΙΟ ΠΡΟΓΡΑΜΜΑ">WEEKLY SCHEDULE</h2>
+            <div class="schedule-grid">
+                <div class="schedule-day">
+                    <h3 data-en="MONDAY" data-gr="ΔΕΥΤΕΡΑ">MONDAY</h3>
+                    <div class="schedule-item">
+                        <span class="time">06:00</span>
+                        <span class="class-name" data-en="HIIT" data-gr="HIIT">HIIT</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">09:00</span>
+                        <span class="class-name" data-en="Strength" data-gr="Δύναμη">Strength</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">18:00</span>
+                        <span class="class-name">CrossFit</span>
+                    </div>
+                </div>
+                <div class="schedule-day">
+                    <h3 data-en="TUESDAY" data-gr="ΤΡΙΤΗ">TUESDAY</h3>
+                    <div class="schedule-item">
+                        <span class="time">07:00</span>
+                        <span class="class-name">Yoga</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">12:00</span>
+                        <span class="class-name">Boxing</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">19:00</span>
+                        <span class="class-name" data-en="Spin" data-gr="Spinning">Spin</span>
+                    </div>
+                </div>
+                <div class="schedule-day">
+                    <h3 data-en="WEDNESDAY" data-gr="ΤΕΤΑΡΤΗ">WEDNESDAY</h3>
+                    <div class="schedule-item">
+                        <span class="time">06:00</span>
+                        <span class="class-name" data-en="Strength" data-gr="Δύναμη">Strength</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">10:00</span>
+                        <span class="class-name">Pilates</span>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="time">18:30</span>
+                        <span class="class-name">HIIT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="classes-detail">
+        <div class="container">
+            <h2 class="section-title" data-en="CLASS TYPES" data-gr="ΤΥΠΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ">CLASS TYPES</h2>
+            <div class="classes-detail-grid">
+                <div class="class-detail-card">
+                    <div class="class-detail-icon"><i class="fas fa-fire"></i></div>
+                    <h3>HIIT</h3>
+                    <p data-en="High-Intensity Interval Training. Maximum fat burn in 45 minutes." data-gr="Προπόνηση Υψηλής Έντασης. Μέγιστη καύση λίπους σε 45 λεπτά.">High-Intensity Interval Training. Maximum fat burn in 45 minutes.</p>
+                    <ul>
+                        <li data-en="Burns 500-800 calories" data-gr="Καίει 500-800 θερμίδες">Burns 500-800 calories</li>
+                        <li data-en="Boosts metabolism" data-gr="Ενισχύει τον μεταβολισμό">Boosts metabolism</li>
+                        <li data-en="Full body workout" data-gr="Προπόνηση ολόκληρου σώματος">Full body workout</li>
+                    </ul>
+                </div>
+                <div class="class-detail-card">
+                    <div class="class-detail-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3 data-en="Strength Training" data-gr="Προπόνηση Δύναμης">Strength Training</h3>
+                    <p data-en="Build muscle and increase power with structured resistance training." data-gr="Χτίσε μυς και αύξησε τη δύναμη με δομημένη προπόνηση αντίστασης.">Build muscle and increase power with structured resistance training.</p>
+                    <ul>
+                        <li data-en="Muscle building focus" data-gr="Εστίαση στη μυϊκή ανάπτυξη">Muscle building focus</li>
+                        <li data-en="Progressive overload" data-gr="Προοδευτική υπερφόρτωση">Progressive overload</li>
+                        <li data-en="Compound movements" data-gr="Σύνθετες κινήσεις">Compound movements</li>
+                    </ul>
+                </div>
+                <div class="class-detail-card">
+                    <div class="class-detail-icon"><i class="fas fa-om"></i></div>
+                    <h3>Yoga</h3>
+                    <p data-en="Flexibility, balance, and mental clarity. Essential for recovery." data-gr="Ευελιξία, ισορροπία και νοητική καθαρότητα. Απαραίτητο για ανάκαμψη.">Flexibility, balance, and mental clarity. Essential for recovery.</p>
+                    <ul>
+                        <li data-en="Improves flexibility" data-gr="Βελτιώνει την ευελιξία">Improves flexibility</li>
+                        <li data-en="Reduces stress" data-gr="Μειώνει το άγχος">Reduces stress</li>
+                        <li data-en="Injury prevention" data-gr="Πρόληψη τραυματισμών">Injury prevention</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-dumbbell"></i></div>
+                        <span>FITZONE</span>
+                    </div>
+                    <p data-en="Transform your body, transform your life." data-gr="Μεταμόρφωσε το σώμα σου, μεταμόρφωσε τη ζωή σου.">Transform your body, transform your life.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="LINKS" data-gr="ΣΥΝΔΕΣΜΟΙ">LINKS</h3>
+                    <ul>
+                        <li><a href="classes.html" data-en="Classes" data-gr="Προγράμματα">Classes</a></li>
+                        <li><a href="trainers.html" data-en="Trainers" data-gr="Προπονητές">Trainers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-en="CONTACT" data-gr="ΕΠΙΚΟΙΝΩΝΙΑ">CONTACT</h3>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone"></i> <span>+30 210 555 1234</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@fitzone.gr</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitZone. <span data-en="All rights reserved." data-gr="Όλα τα δικαιώματα διατηρούνται.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
